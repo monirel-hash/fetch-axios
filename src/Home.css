@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #ecf9ff;
+  padding: 20px;
+}
+
+.movies-list {
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+}

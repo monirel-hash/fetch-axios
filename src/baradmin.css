@@ -1,0 +1,34 @@
+.slidebar {
+  background-color: #ecf9ff;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+}
+
+.slidebar h3 {
+  margin-top: 0;
+}
+
+.slidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slidebar button {
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.slidebar button:hover {
+  background-color: black;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+}

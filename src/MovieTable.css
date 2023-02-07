@@ -1,0 +1,90 @@
+.movie-table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*#2196f3*/
+.add-movie-button {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.movie-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.movie-table th,
+.movie-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.movie-table th {
+  background-color: black;
+  color: #fff;
+}
+
+.edit-movie-button,
+.delete-movie-button {
+  padding: 5px 10px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.edit-movie-button:hover,
+.delete-movie-button:hover {
+  background-color: #1e88e5;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: -10px;
+  background: black;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-item {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.page-link {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+}
+
+.page-link:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
